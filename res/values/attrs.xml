@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PolarLayout">
+        <attr name="spinning" format="float|reference" />
+        <attr name="disk_color" format="color|reference" />
+<!--         <attr name="spin_speed" /> -->
+    </declare-styleable>
+    <declare-styleable name="PolarLayout_Layout">
+        <attr name="layout_fixed" format="boolean" />
+        <attr name="layout_radius" format="float|reference" />
+        <attr name="layout_azimuth" format="float|reference" />
+        <attr name="layout_orientation" format="float|reference" />
+        <attr name="layout_keepOrientation" format="boolean" />
+    </declare-styleable>
+
+</resources>
